@@ -23,3 +23,29 @@ repositorio/
 └── README.md
 ```
 
+## 4. Ejecución del proyecto
+
+**Paso 1.** Clonar el repositorio.
+
+```bash
+git clone URL_DEL_REPOSITORIO
+```
+
+**Paso 2.** Ingresar al proyecto.
+
+```bash
+cd repositorio/proyecto
+```
+
+**Paso 3.** Instalar las dependencias.
+
+```bash
+pip install -r requirements.txt
+```
+
+**Paso 4.** Ejecutar la aplicación.
+
+```bash
+python app.py
+```
+
