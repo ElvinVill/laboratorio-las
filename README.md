@@ -43,7 +43,13 @@ cd repositorio/proyecto
 pip install -r requirements.txt
 ```
 
-**Paso 4.** Ejecutar la aplicación.
+**Paso 4.** Crear la Base de Datos.
+
+```bash
+python crearDB.py
+```
+
+**Paso 5.** Ejecutar la aplicación.
 
 ```bash
 python app.py
