@@ -55,3 +55,32 @@ python crearDB.py
 python app.py
 ```
 
+**Paso 6.** Realizar pruebas de la aplicacion.
+
+```bash
+Entrar a 127.0.0.1/5000 desde un navegador para verificar
+que la aplicación esté activa
+
+Entrar a 127.0.0.1/registro para agregar usuarios
+a la base de datos
+
+Entrar a 127.0.0.1/login para realizar pruebas
+de inicio de sesión
+
+Realizar un intento exitoso de login
+
+Registrar 3 intentos fallidos consecutivos
+de login
+
+Revisar el archivo eventos.log 
+
+```
+
+**Paso 7.** Ejecutar detector.py.
+
+```bash
+python detector.py
+
+Revisar el archivo respuesta.log
+```
+
